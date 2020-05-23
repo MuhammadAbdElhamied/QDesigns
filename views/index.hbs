@@ -1,2 +1,33 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="topar">
+    <h4><a href='/' target="_blank">Coursatak</a></h4>
+</div>
+
+<div class="container">
+    <div class="s-f">
+        <div class="card">
+            <div>
+                <h5>اصنع بطاقة معايدة</h5>
+                <h6 class="word">ارسسلها الأن للأحباب<br>املئ البيانات التالية ثم اضغط على "تنزيل الصورة" لتقوم بحفظها وارسالها للجميع .. جرب الأن</h6>
+            </div>
+
+            <div class="card-body">
+                <form action="/" method="post">
+                <div class="form-group">
+                        <label for="email">الإسم:</label>
+                        <input type="text" placeholder="مثال: مهندس/ محمد شراقي" name="name" id="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">رسالة المعايدة:</label>
+                        <textarea class="form-control" rows="4" name="content" id="content" placeholder="مثال: يهنئكم بحلول عيد الفط المبارك اعاده الله عليكم بالخير واليمن والبركات وكل عام وانتم بخير..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-explore">تنزيل الصورة</button>
+                    </div>
+                    {{!-- <div>
+                        <p class='if'></span><a href="/signup">SIGN UP</a><span>, If you aren't already signed up</p>
+                    </div> --}}
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
